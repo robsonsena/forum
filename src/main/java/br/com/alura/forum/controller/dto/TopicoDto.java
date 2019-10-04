@@ -18,7 +18,7 @@ public class TopicoDto {
 		this.id = topico.getId();
 		this.titulo = topico.getTitulo();
 		this.mesagem = topico.getMensagem();
-		this.dataCriacao = this.getDataCriacao();
+		this.dataCriacao = topico.getDataCriacao();
 	}
 	
 	public Long getId() {
